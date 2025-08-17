@@ -6,10 +6,11 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '', '');
   return {
     plugins: [react()],
-    // IMPORTANT: Replace 'neo-fear' with your GitHub repository name.
-    base: '/neo-fear/',
+    // IMPORTANT: This should be the name of your GitHub repository.
+    // It is case-sensitive.
+    base: '/NeoFear/',
     define: {
-      'process.env.API_KEY': JSON.stringify(env.API_KEY)
+      'process.env': env,
     }
   }
 })
