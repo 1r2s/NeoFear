@@ -1,0 +1,5 @@
+{
+  "name": "NeoFear",
+  "description": "NeoFear is an interactive horror story game powered by AI. Choose your path, manage your sanity, and try to survive as the AI generates a unique and terrifying narrative with accompanying images for every step you take.",
+  "requestFramePermissions": []
+}
